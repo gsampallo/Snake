@@ -1,3 +1,9 @@
+/*
+ * SNAKE
+ * Very basic example of the snake game.
+ * by Guillermo Sampallo - 2019
+ * www.gsampallo.com
+ */
 package gsampallo;
 
 import java.awt.Color;
@@ -138,7 +144,6 @@ public class Snake extends JFrame {
                 for(int i=0;i<listaPosiciones.size();i++) {
                     Point p = (Point)listaPosiciones.get(i);
                     g.fillRect(p.x,p.y,widthPoint,heightPoint);
-                    //System.out.println(i+" "+p.x+","+p.y);
                 }
             }
     
@@ -151,7 +156,7 @@ public class Snake extends JFrame {
                 g.drawString("SCORE "+(listaPosiciones.size()-1), 300, 240);
 
                 g.setFont(new Font("TimesRoman", Font.BOLD, 20));
-                g.drawString("S to Start New Game", 100, 320);
+                g.drawString("N to Start New Game", 100, 320);
                 g.drawString("ESC to Exit", 100, 340);
             }
 
@@ -166,24 +171,24 @@ public class Snake extends JFrame {
 				System.exit(0);
 			} else if(e.getKeyCode() == KeyEvent.VK_RIGHT) {
 
-				if(snake.x < width) {
+				if(direccion != "LEFT") {
                     direccion = "RIGHT";
 
 				}
 			} else if(e.getKeyCode() == KeyEvent.VK_LEFT) {
-				if(snake.x > 0) {
+				if(direccion != "RIGHT") {
                     direccion = "LEFT";
 				}
 			} else if(e.getKeyCode() == KeyEvent.VK_UP) {
-				if(snake.y > 0) {
+				if(direccion != "DOWN") {
                     direccion = "UP";
 				}
 			} else if(e.getKeyCode() == KeyEvent.VK_DOWN) {
-				if(snake.y < height) {
+				if(direccion != "UP") {
                     direccion = "DOWN";
 				}				
 			
-			} else if(e.getKeyCode() == KeyEvent.VK_S) {
+			} else if(e.getKeyCode() == KeyEvent.VK_N) {
                 gameOver = false;
                 startGame();				
 			}
