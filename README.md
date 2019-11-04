@@ -21,7 +21,7 @@ Press ESC to Exit.
 ## Article
 
 Read the article about how i wrote the game on the blog: 
-https://www.gsampallo.com/blog/2019/11/03/simple-ejemplo-del-juego-de-la-serpiente-con-java
+https://www.gsampallo.com/blog/2019/11/04/simple-ejemplo-del-juego-de-la-serpiente-con-java/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
