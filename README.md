@@ -2,7 +2,7 @@
 
 Very basic game of the snake
 
-https://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif
+http://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif
 
 ![Snake](https://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif)
 
@@ -21,7 +21,7 @@ Press ESC to Exit.
 ## Article
 
 Read the article about how i wrote the game on the blog: 
-https://www.gsampallo.com/blog/2019/11/04/simple-ejemplo-del-juego-de-la-serpiente-con-java/
+http://www.gsampallo.com/blog/2019/11/04/simple-ejemplo-del-juego-de-la-serpiente-con-java/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
