@@ -4,7 +4,7 @@ Very basic game of the snake
 
 http://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif
 
-![Snake](https://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif)
+![Snake](http://www.gsampallo.com/blog/wp-content/uploads/2019/11/snake.gif)
 
 The animated gif can take a minute to download.
 
